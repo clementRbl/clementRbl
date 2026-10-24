@@ -30,13 +30,13 @@ projets ci-dessous.
   sur des avis clients, du classifieur de sentiment au MLOps. Première brique en cours, un
   classifieur qui signale les avis négatifs au service client. Baseline suivie dans MLflow.
 
-## En production, code privé
+## Code privé
 
-- IRAX lit la boîte mail d'une agence immobilière, classe chaque demande chaud / tiède / froid avec
-  le motif et affiche les prospects à rappeler en premier. Python, FastAPI, PostgreSQL, Mistral, Nuxt.
-- Veille IA lit 29 sources chaque matin, regroupe les doublons, résume sous double contrôle
-  anti-hallucination et dépose un brouillon d'article sur mon blog. En production tous les jours
-  pour moins d'un euro par mois de modèles.
+- Veille IA lit 29 sources chaque matin, regroupe les doublons et les résume sous double contrôle
+  anti-hallucination. Il tourne tous les jours pour moins d'un euro par mois de modèles.
+- IRAX, un projet personnel : un prototype qui lit une boîte mail d'agence immobilière, classe
+  chaque demande chaud / tiède / froid avec le motif et affiche les prospects à rappeler en
+  premier. Python, FastAPI, PostgreSQL, Mistral, Nuxt.
 
 ## Ailleurs
 
